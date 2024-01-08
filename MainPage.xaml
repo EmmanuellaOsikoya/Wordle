@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Wordle"
+             x:Class="Wordle.MainPage"
+             x:Name="Wordleee"
+             Title="Wordleee"
+             BackgroundColor="LightPink">
+
+    <StackLayout>
+        <Label Text="{Binding Word}" FontSize="30" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+        <Entry x:Name="GuessEntry" Placeholder="Enter your guess" HorizontalOptions="CenterAndExpand" />
+        <Button Text="Check" Clicked="OnCheckClicked" HorizontalOptions="CenterAndExpand" BackgroundColor="DarkViolet" TextColor="BlanchedAlmond"/>
+        <Label x:Name="Result" Text="{Binding Result}" FontSize="20" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>

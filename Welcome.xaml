@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Wordle"
+             x:Class="Wordle.WelcomePage"
+             Title="Wordleee"
+             BackgroundColor="LightPink">
+
+    <StackLayout>
+        <Label Text="Welcome to Wordle" FontSize="30" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="BlanchedAlmond"/>
+        <Button Text="Start Game" Clicked="OnStartGameClicked" HorizontalOptions="CenterAndExpand" BackgroundColor="DarkViolet" TextColor="BlanchedAlmond"/>
+    </StackLayout>
+
+</ContentPage>
